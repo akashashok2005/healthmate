@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Heading -->
+
+        <!-- Exercise 1 -->
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="#85AAD8"
+            android:fontFamily="sans-serif-medium"
+            android:text="Exercises"
+            android:textColor="#000307"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/imageExercise1"
+                android:layout_width="332dp"
+                android:layout_height="200dp"
+                android:background="@drawable/image_background"
+                android:contentDescription="@string/exercise_1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/im1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="yoga"
+                android:textColor="#121010"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <!-- Exercise 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/imageExercise2"
+                android:layout_width="328dp"
+                android:layout_height="200dp"
+                android:background="@drawable/image_background"
+                android:contentDescription="@string/exercise_2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/im2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="standing exercise"
+                android:textColor="#121010"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <!-- Exercise 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/imageExercise3"
+                android:layout_width="330dp"
+                android:layout_height="200dp"
+                android:background="@drawable/image_background"
+                android:contentDescription="@string/exercise_3"
+                android:scaleType="centerCrop"
+                android:src="@drawable/im3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 min"
+                android:textColor="#121010"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <!-- Exercise 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/imageExercise4"
+                android:layout_width="328dp"
+                android:layout_height="200dp"
+                android:background="@drawable/image_background"
+                android:contentDescription="@string/exercise_4"
+                android:scaleType="centerCrop"
+                android:src="@drawable/im4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gentle exercise"
+                android:textColor="#121010"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

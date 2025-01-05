@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ONLINE NURSE</string>
+    <string name="app_description">This app provides amazing features to enhance your experience.</string>
+    <string name="exercise_1">Push-Ups</string>
+    <string name="exercise_2">Squats</string>
+    <string name="exercise_3">Plank</string>
+    <string name="exercise_4">Jumping Jacks</string>
+</resources>
